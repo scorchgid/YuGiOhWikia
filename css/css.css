@@ -1,0 +1,168 @@
+/* CSS Document */
+
+html {
+    background: url("../images/Wiki-background.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.boxTitle {
+    max-width: 530px;
+    height: 60px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 10px;
+}
+
+.boxContent {
+    background-color: white;
+    background-size: cover;
+    max-width: 850px;
+    height: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerContent {
+    float: left;
+    margin: 10px;
+    padding: 1px;
+    max-width: 500px;
+    min-width: 255px;
+    font-size: 12pt;
+}
+
+.innerContentStacking {
+    margin: 10px;
+    padding: 1px;
+    max-width: 500px;
+    min-width: 255px;
+    font-size: 12pt;
+}
+
+table.tableContent {
+    height: 348px;
+    width: 800;
+    border: 1;
+}
+
+.starIMG {
+    width: 18px;
+    height: 18px
+}
+
+
+/*
+@media screen and (max-width: 500px) {
+    table {
+        display: inline-block;
+        width: 100%
+    }
+}*/
+
+
+
+.cardtablerowheader {
+    width: 100%;
+}
+
+@media all and (max-width:500px) {
+    table {
+        width: 100%;
+    }
+    td {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    tr {
+        width: 100%
+    }
+    th {
+        display: block;
+    }
+}
+
+tr {
+    margin-bottom: 30px;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+.tableContent td {
+    width: auto;
+    text-align: center;
+    column-span: 3;
+}
+
+#textboxid {
+    height: 200px;
+    width: 100%;
+    font-size: 10pt;
+}
+
+div.boxTitle div.titleText {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.titleMonsterEffect {
+    background-color: #FF8B53;
+    color: black;
+}
+
+.titleMonsterNormal {
+    background-color: #FDE68A;
+    color: black;
+}
+
+.titleSpell {
+    background-color: #1D9E74;
+    color: black;
+}
+
+.titleMonsterRitual {
+    background-color: #9DB5CC;
+    color: black;
+}
+
+.titleMonsterFusion {
+    background-color: #A086B7;
+    color: black;
+}
+
+.titleTrap {
+    background-color: #BC5A84;
+    color: black;
+}
+
+.titleMonsterSynchro {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.titleMonsterToken {
+    background-color: #C0C0C0;
+    color: black;
+}
+
+.titleMonsterXyz {
+    background-color: #000;
+    color: white;
+}
