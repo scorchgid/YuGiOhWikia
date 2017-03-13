@@ -30,7 +30,7 @@ body {
     background-color: white;
     background-size: cover;
     max-width: 850px;
-    height: 3000px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,24 +73,23 @@ table.tableContent {
 }*/
 
 
-
-.cardtablerowheader {
+/*.cardtablerowheader {
     width: 100%;
-}
+}*/
 
-@media all and (max-width:500px) {
-    table {
+@media (max-width:500px) {
+    table.tableContent {
         width: 100%;
     }
-    td {
+    table.tableContent td {
         display: block;
         width: 100%;
         margin-bottom: 5px;
     }
-    tr {
+    table.tableContent tr {
         width: 100%
     }
-    th {
+    table.tableContent th {
         display: block;
     }
 }
