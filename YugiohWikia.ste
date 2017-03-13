@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site SitePrefVersionMajor="12" SitePrefVersionMinor="0">
+    <localinfo sitename="YugiohWikia" ftporrdsserver="FALSE" mediaqueryfile="" localroot="H:%5CData%5CYear%204b%5CUser%20Experince%20CI3010%5CDreamweaver%20Prototype%202%5C" assetfolder="H:%5CData%5CYear%204b%5CUser%20Experince%20CI3010%5CDreamweaver%20Prototype%202%5CjQueryAssets%5C" webfontsfolder="H:%5CData%5CYear%204b%5CUser%20Experince%20CI3010%5CDreamweaver%20Prototype%202%5Cwebfonts%5C" edgeassetsfolder="H:%5CData%5CYear%204b%5CUser%20Experince%20CI3010%5CDreamweaver%20Prototype%202%5Canimation_assets%5C" imagefolder="H:%5CData%5CYear%204b%5CUser%20Experince%20CI3010%5CDreamweaver%20Prototype%202%5Cimages%5C" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
+    <designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
+    <sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+    <fileviewcolumns sharecolumns="FALSE">
+        <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="80" remotewidth="180"/>
+        <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36"/>
+        <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-2" remotewidth="-2"/>
+        <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60"/>
+        <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102"/>
+        <column name="Checked%20Out%20By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1"/>
+</fileviewcolumns>
+    <serverlist/>
+    <cloaking enabled="TRUE" patterns="FALSE">
+        <cloakedfolder folder="dw_php_codehinting.config"/>
+        <cloakedpattern pattern=".fla"/>
+        <cloakedpattern pattern=".psd"/>
+</cloaking>
+    <contributorintegration enabled="FALSE"/>
+</site>
