@@ -1,0 +1,567 @@
+        @import url("http://yugioh.wikia.com/load.php?mode=articles&articles=MediaWiki:Anime-common.css|MediaWiki:Wikimedia.css|MediaWiki:Cardtable.css|MediaWiki:Diffs.css|MediaWiki:Themes.css&only=styles");
+.card-galleries {
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    margin: 0.5em auto
+}
+
+.card-galleries th {
+    background: #800000;
+    color: #FF0;
+    border: 1px solid #999;
+    margin: 0;
+    padding: 3px
+}
+
+.card-galleries td {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+.card-galleries table.gallery {
+    width: 100%;
+    margin: 0;
+    border: 0
+}
+
+.card-galleries table.gallery td {
+    background: transparent
+}
+
+.card-galleries table.gallery .gallerybox {
+    background: #F9F9F9;
+    border: 1px solid #CCC;
+    margin: 0 auto
+}
+
+.card-galleries table.gallery .gallerybox .thumb {
+    background: transparent;
+    border: 0;
+    margin: 0 auto;
+    padding: 10px 0 0 !important
+}
+
+.card-galleries .thumb neutral,
+.card-galleries .image lightbox,
+.card-galleries .lightbox-caption {
+    border: 0;
+    background: transparent;
+    white-space: normal;
+    text-align: center;
+    font: sans-serif;
+    padding: 0
+}
+
+.anime-card-gallery .image-no-lightbox {
+    background: url('http://img3.wikia.nocookie.net/__cb20110624090942/yugioh/images/thumb/9/94/Back-Anime-2.png/127px-Back-Anime-2.png')
+}
+
+.manga-card-gallery .image-no-lightbox {
+    background: url('http://img1.wikia.nocookie.net/__cb20130419235603/yugioh/images/thumb/d/d7/Back-JP-Manga.png/140px-Back-JP-Manga.png') no-repeat
+}
+
+.manga-card-gallery-color .image-no-lightbox {
+    background: url('http://vignette2.wikia.nocookie.net/yugioh/images/f/fe/Back-JP-Manga-DM-color.png/revision/latest/scale-to-width-down/140') no-repeat
+}
+
+.anime-card-gallery .image-no-lightbox,
+.manga-card-gallery .image-no-lightbox,
+.manga-card-gallery-color .image-no-lightbox {
+    font-size: 0.1px;
+    color: transparent
+}
+
+.anime-card-gallery .wikia-gallery-item,
+.manga-card-gallery .wikia-gallery-item,
+.manga-card-gallery-color .wikia-gallery-item {
+    text-align: center
+}
+
+.anime-card-gallery .thumbimage,
+.manga-card-gallery .thumbimage,
+.manga-card-gallery-color .thumbimage,
+.anime-card-gallery .thumb .gallery-image-wrapper,
+.manga-card-gallery .thumb .gallery-image-wrapper,
+.manga-card-gallery-color .thumb .gallery-image-wrapper {
+    border-width: 0
+}
+
+.anime-card-gallery .thumbimage[src*="-NC."],
+.manga-card-gallery .thumbimage[src*="-NC."],
+.manga-card-gallery-color .thumbimage[src*="-NC."],
+.anime-card-gallery .thumbimage[src*="-NC-"],
+.manga-card-gallery .thumbimage[src*="-NC-"],
+.manga-card-gallery-color .thumbimage[src*="-NC-"] {
+    border-width: 1px
+}
+
+table.card-errata {
+    width: 100%
+}
+
+.card-errata caption {
+    background: #800000;
+    color: #FF0
+}
+
+.card-errata th {
+    background: #800000 !important;
+    color: #FF0;
+    width: 33.33%
+}
+
+.card-errata .twocolumn th {
+    width: 50%
+}
+
+.card-errata .lores td,
+.card-errata .images td {
+    vertical-align: top
+}
+
+.card-errata .names td,
+.card-errata .types td,
+.card-errata .thumbcaption {
+    text-align: center
+}
+
+.card-errata ins {
+    text-decoration: inherit;
+    border-bottom: 1px solid #000;
+    background: #FFC
+}
+
+.card-errata del {
+    text-decoration: line-through;
+    color: #F66
+}
+
+.card-errata .original {
+    opacity: 0.5
+}
+
+.card-errata .original ins,
+.card-errata .original del {
+    background: inherit;
+    color: inherit;
+    border-bottom: inherit
+}
+
+.card-errata .blank {
+    background: #DDD
+}
+
+.errata-list {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.errata-item-heading {
+    background: #800000;
+    color: #ff0;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: .2em
+}
+
+.errata-item {
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    vertical-align: bottom;
+    flex-direction: column
+}
+
+.errata-item-lore {
+    padding: .5em
+}
+
+.errata-item-image {
+    border-top: 1px solid #aaa;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: auto;
+    padding: 1em .5em;
+    text-align: center
+}
+
+.errata-item-image img {
+    height: 220px
+}
+
+.errata-item-caption {
+    text-align: center
+}
+
+@media screen and (min-width:600px) {
+    .errata-item {
+        width: 50%
+    }
+    @media screen and (min-width:700px) {
+        .errata-item {
+            width: 33%
+        }
+        @media screen and (min-width:1100px) {
+            .errata-item {
+                width: 25%
+            }
+        }
+        .card-list {
+            width: 100%;
+            clear: both
+        }
+        .card-list tr th[colspan],
+        .card-list caption {
+            background: #800000;
+            color: #FF0;
+            padding: 0.3em
+        }
+        .card-list tr th[colspan] a,
+        .card-list caption a {}
+        .card-list tr:hover td {
+            background: #EEE
+        }
+        ul.manga-ddm-list {
+            margin: 0px;
+            list-style: none
+        }
+        .manga-ddm-list>li {
+            display: flex;
+            padding: 0.5em;
+            margin: 0
+        }
+        .manga-ddm-list-image {
+            min-width: 9em;
+            text-align: center
+        }
+        .manga-ddm-list-image img {
+            height: auto;
+            max-width: 100%
+        }
+        .manga-ddm-list-stats {
+            padding-left: 1em;
+            width: 100%
+        }
+        .manga-ddm-list-stats .hlist {
+            border: solid #fff;
+            border-width: 1px 0;
+            padding: .25em 0
+        }
+        .manga-ddm-list-dragon {
+            background: linear-gradient(#fff, #f99)
+        }
+        .manga-ddm-list-warrior {
+            background-image: linear-gradient(#fff, #b7eaf0)
+        }
+        .manga-ddm-list-spellcaster {
+            background-image: linear-gradient(#fff, #f9f9f9)
+        }
+        .manga-ddm-list-item,
+        [class*="manga-ddm-list-???"] {
+            background-image: linear-gradient(#fff, #c0c0c0)
+        }
+        .page-Yu-Gi-Oh_Requests_for_rollback_requests #wpSummary,
+        .page-Yu-Gi-Oh_Requests_for_rollback_requests #wpSummaryLabel,
+        .page-Yu-Gi-Oh_Requests_for_mover_requests #wpSummary,
+        .page-Yu-Gi-Oh_Requests_for_mover_requests #wpSummaryLabel {
+            display: none
+        }
+        .wikia-gallery-add,
+        .wikia-photogallery-add {
+            display: none !important
+        }
+        .infobox-subheading {
+            background: #DDD;
+            font-weight: bold
+        }
+        .infobox td ul {
+            margin-left: .3em !important
+        }
+        .infobox td li {
+            text-indent: -.3em
+        }
+        .high-light {
+            width: 100%;
+            font-size: 90%;
+            text-align: left;
+            border: 1px solid #AAA;
+            margin: 1em 1em 1em 0;
+            background: #F9F9F9
+        }
+        .high-light th {
+            background: #800000;
+            color: #FF0;
+            text-align: center
+        }
+        .high-light tr:hover {
+            background: #EEF
+        }
+        .high-light .section-begin td {
+            border-top: 1px solid #800000
+        }
+        .hcomma dd::after,
+        .hcomma li::after {
+            content: ",\20";
+            font-weight: normal
+        }
+        .hslash dd::after,
+        .hslash li::after {
+            content: " / ";
+            font-weight: normal
+        }
+        .hplus dd::after,
+        .hplus li::after {
+            content: " + ";
+            font-weight: normal
+        }
+        .hplus dd:lang(ja)::after,
+        .hplus li:lang(ja)::after {
+            content: " ＋ "
+        }
+        .hplus.inline ul {
+            display: inline
+        }
+        .hminus dd::after,
+        .hminus li::after,
+        .hdash dd::after,
+        .hdash li::after {
+            content: " - ";
+            font-weight: normal
+        }
+        .hminus dd:lang(ja)::after,
+        .hminus li:lang(ja)::after,
+        .hdash dd:lang(ja)::after,
+        .hdash li:lang(ja)::after {
+            content: " － "
+        }
+        .hpipe dd::after,
+        .hpipe li::after {
+            content: " | ";
+            font-weight: normal
+        }
+        .hlist dd:last-child::after,
+        .hlist dt:last-child::after,
+        .hlist li:last-child::after {
+            content: none
+        }
+        .hlist dd.hlist-last-child::after,
+        .hlist dt.hlist-last-child::after,
+        .hlist li.hlist-last-child::after {
+            content: none
+        }
+        .hlist dl dl dd:last-child::after,
+        .hlist dl dl dt:last-child::after,
+        .hlist ol ol li:last-child::after,
+        .hlist ul ul li:last-child::after {
+            content: ")";
+            font-weight: normal
+        }
+        .hlist dl dl dd.hlist-last-child::after,
+        .hlist dl dl dt.hlist-last-child::after,
+        .hlist ol ol li.hlist-last-child::after,
+        .hlist ul ul li.hlist-last-child::after {
+            content: ")";
+            font-weight: normal
+        }
+        .tabbertab {
+            background: #FFF
+        }
+        .smalltabs .tabbernav li {
+            font-size: smaller
+        }
+        .smallertabs .tabbernav li {
+            font-size: xx-small
+        }
+        .nav-prev {
+            float: left;
+            text-align: left
+        }
+        .nav-prev li::before {
+            content: "← "
+        }
+        .nav-next {
+            float: right;
+            text-align: right
+        }
+        .nav-next li::after {
+            content: " →"
+        }
+        .quoted-title::before,
+        .quoted-title::after {
+            content: '"'
+        }
+        .mobile-show {
+            display: none
+        }
+        .smwttactivepersist,
+        .smwttpersist {
+            display: none
+        }
+        .smwpropname {
+            width: 25%
+        }
+        div.thumb {
+            border: transparent
+        }
+        .loadbox-navbox {
+            padding: 2px !important;
+            margin: 1em 0 0 !important;
+            clear: both
+        }
+        .loadbox-navbox>p {
+            background-color: #CCC;
+            text-align: center;
+            margin: 0;
+            padding: 0 3px
+        }
+        .loadbox-navbox>p>b {
+            font-size: 110%
+        }
+        .loadbox-navbox .navbox {
+            margin: 0 -2px -2px;
+            border: 0
+        }
+        .loadbox-navbox .navbox>tbody>tr:first-child {
+            display: none
+        }
+        .forumheader {
+            border: 1px solid #aaa;
+            background-color: #f9f9f9;
+            margin-top: 1em;
+            padding: 12px
+        }
+        .forumlist td.forum_edited a {
+            color: black;
+            text-decoration: none
+        }
+        .forumlist td.forum_title a {
+            padding-left: 20px
+        }
+        .forumlist td.forum_title a.forum_new {
+            font-weight: bold;
+            background: url(http://yugioh.wikia.com/images/4/4e/Forum_new.gif) center left no-repeat;
+            padding-left: 20px
+        }
+        .forumlist td.forum_title a.forum_new:visited {
+            font-weight: normal;
+            background: none;
+            padding-left: 20px
+        }
+        .forumlist th.forum_title {
+            padding-left: 20px
+        }
+        .allpagesredirect a {
+            background: url('data:image/jpeg;base64,R0lGODlhCgAKAKL/AP///4ODg4MAAAAAAMDAwAAAAAAAAAAAACH5BAEAAAQALAAAAAAKAAoAQAMTSLrc8ks0Jqeq5GE8uYuOJnZMAgA7') center left no-repeat;
+            padding-left: 13px
+        }
+         :lang(ja-Latn),
+         :lang(ko-Latn),
+         :lang(zh-Latn) {
+            word-break: keep-all
+        }
+        @-moz-document url-prefix() {
+            ruby {
+                display: inline-table;
+                text-align: center;
+                white-space: nowrap;
+                text-indent: 0;
+                margin: 0;
+                vertical-align: 55%
+            }
+            ruby>rb {
+                display: table-row-group;
+                line-height: 100%
+            }
+            ruby>rt {
+                display: table-header-group;
+                font-size: 60%;
+                line-height: 50%;
+                letter-spacing: 0
+            }
+            rp {
+                display: none
+            }
+        }
+        @import url("http://yugioh.wikia.com/load.php?mode=articles&articles=MediaWiki:Themes.css&only=styles");
+        .citation cite {
+            font-style: italic
+        }
+        .code {
+            background: #F9F9F9
+        }
+        .box.info,
+        .box.infobox {
+            line-height: 160% !important
+        }
+        .picture-attribution {
+            display: none !important
+        }
+        #WikiaArticle h1 {
+            border-bottom: 1px solid #D9D9D9
+        }
+        .WikiaArticle h1 .editsection {
+            display: inline
+        }
+        .WikiaArticle h2 {
+            clear: none
+        }
+        h3 .mw-headline,
+        h4 .mw-headline,
+        h5 .mw-headline,
+        h6 .mw-headline {
+            font-weight: bold
+        }
+        .toccolours {
+            border: 1px solid #AAA;
+            background-color: #F9F9F9;
+            padding: 5px;
+            font-size: 95%
+        }
+        #WikiaArticleComments {
+            display: none
+        }
+        .WikiaArticle .infobox {
+            border-color: #AAA;
+            background-color: #f9f9f9
+        }
+        .article-thumb .caption a {
+            display: inline
+        }
+        table.wikitable th,
+        table.wikitable td {
+            border: none
+        }
+        @media print {
+            .ns-0 .ambox,
+            .ns-0 .navbox,
+            .ns-0 .infobox.sisterproject,
+            .ns-0 .dablink,
+            .ns-0 .metadata,
+            #privacy,
+            #about,
+            #disclaimer,
+            .editlink,
+            span.collapseButton,
+            a.NavToggle,
+            .noprint {
+                display: none
+            }
+            table.collapsible tr,
+            div.NavPic,
+            div.NavContent {
+                display: block !important
+            }
+            table.collapsible tr {
+                display: table-row !important
+            }
+        }
+        /* cache key: yugioh:resourceloader:filter:minify-css:7:eb9491cc0cdde7de333292ef259ff16f */
