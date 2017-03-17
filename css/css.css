@@ -39,7 +39,16 @@ body {
     float: left;
     margin: 2px;
     padding: 1px;
-    max-width: 500px;
+    max-width: 538px;
+    /*min-width: 255px;*/
+    font-size: 12pt;
+}
+
+.strechContent {
+    float: right;
+    margin: 2px;
+    padding: 1px;
+    max-width: 1500px;
     /*min-width: 255px;*/
     font-size: 12pt;
 }
@@ -80,6 +89,9 @@ table.tableContent {
 @media (max-width:828px) {
     #cardArt {
         width: 112pt;
+    }
+    .innerContent {
+        max-width: none;
     }
 }
 
