@@ -157,11 +157,6 @@ div.boxTitle div.titleText {
     color: black;
 }
 
-.titleSpell {
-    background-color: #1D9E74;
-    color: black;
-}
-
 .titleMonsterRitual {
     background-color: #9DB5CC;
     color: black;
@@ -169,11 +164,6 @@ div.boxTitle div.titleText {
 
 .titleMonsterFusion {
     background-color: #A086B7;
-    color: black;
-}
-
-.titleTrap {
-    background-color: #BC5A84;
     color: black;
 }
 
@@ -190,4 +180,19 @@ div.boxTitle div.titleText {
 .titleMonsterXyz {
     background-color: #000;
     color: white;
+}
+
+.titleMonsterPendulumnEffect {
+    background: linear-gradient(#FF8B53, #1D9E74);
+    color: black;
+}
+
+.titleSpell {
+    background-color: #1D9E74;
+    color: black;
+}
+
+.titleTrap {
+    background-color: #BC5A84;
+    color: black;
 }
